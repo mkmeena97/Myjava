@@ -8,7 +8,7 @@ public class BinaryToDecimal
 		int num=sc.nextInt();
 		int tot_digit=0;
 		int sum=0;
-		int n=num;
+		int n=num;     //need to store input number bcz it is going to become zero in this while loop  
 		while(num>0)
 		{
 			tot_digit++;
