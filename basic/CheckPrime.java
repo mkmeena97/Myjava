@@ -1,16 +1,14 @@
-
+import java.util.Scanner;
 public class CheckPrime{
   public static boolean isPrime(int n)
   {
     if(n==2)
     {
       return true;
-      break;
     }
     if(n<2)
     {
       return false;
-      break;
     }
     else
     {
